@@ -110,7 +110,3 @@ Using the best-performing model (CatBoost Regressor), the predicted price for a 
 - The original price distribution was heavily skewed, with a long tail of high-priced listings.
 - Log transformation reduced skewness and improved the predictive power of the models.
 
-
-# Questions:
-1. When I applied log transformation to y, should I use y_logged to calculate RMSE and R2 or should I use the original y to calculate?
-2. Can I simply delete any rows that contains NaN if the model performs very bad with NaNs? And should this procedure happens before or after train/test set splitting
